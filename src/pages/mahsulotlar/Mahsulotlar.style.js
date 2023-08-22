@@ -1,17 +1,11 @@
 import { styled } from "styled-components";
 
 export const MahsulotlarStyled = styled.div`
-  width: 50%;
+  width: 100%;
   .mahsulotlar-container {
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-  }
-  .search-input {
-    display: block;
-    padding: 5px;
-    font-size: larger;
-    border-radius: 10px;
-    margin: auto;
   }
 `;
